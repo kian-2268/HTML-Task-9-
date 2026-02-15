@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Level 4 - Web Dev Mini Game</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+  <div class="container py-5">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-8 col-lg-6">
+        <div class="card shadow sm">
+          <div class="card-body">
+            <span class="badge text-bg-primary">Level 4</span>
+            <h1 class="h4 fw-bold mt-2">Form Validation</h1>
+            <p class="text-muted mb-4">
+              Enter a name. Empty = error, filled = success.
+            </p>
+            <div class="mb-3">
+              <label class="form-label">Hero Name</label>
+              <input type="text" id="heroName" class="form-control">
+            </div>
+            <button id="submitBtn" class="btn btn-primary w-100 mb-3">
+              Submit Name
+            </button>
+            <p id="message" class="fw-semibold"></p>
+            <hr>
+            <div class="d-flex gap-2">
+              <button class="btn btn-secondary w-50" onclick="window.location.href='level3.html'">
+                Back
+              </button>
+              <button class="btn btn-dark w-50" onclick="window.location.href='level5.html'">
+                Next Level
+              </button>
+            </div>
+          </div>
+        </div>
+        <p class="text-center text-muted small mt-3">
+          Must show the green color to signify success before proceeding to the next level. Take a screenshot of this level and save it for your portfolio!
+        </p>
+      </div>
+    </div>
+  </div>
+  <script src="level4.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
